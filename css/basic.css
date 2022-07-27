@@ -1,0 +1,76 @@
+@charset "UTF-8";
+* { margin:0; padding:0; box-sizing:border-box; }
+li { list-style:none; }
+a { text-decoration:none; }
+img { vertical-align:middle; max-width:100%;}
+body { font-family:Verdana, Geneva, Tahoma, sans-serif; }
+
+header { background:url("../img/manhattan-407703.jpg") no-repeat center 10% / cover; padding:180px 0 100px; }
+header h2 { font-size:3.5vw; text-shadow:0 0 5px rgb(0 0 0 /80%); }
+header h4 { font-size:16px; }
+
+
+section { padding:70px 0; }
+.row { margin-right:0; margin-left:0; }
+.row>* { padding-right:0; padding-left:0; }
+
+section h2 { margin-bottom:30px; }
+section p { font-size:14px; line-height:1.6; }
+section p .bi { color:#007AFF; font-size:18px; vertical-align:middle; padding-right:10px; }
+
+#app {}
+#app h3 { font-weight:bold; margin-bottom:15px; }
+#app img { height:73px; margin-bottom:58px; }
+#app p { font-size:13px; line-height:2; margin-bottom:50px; }
+#app a {  font-size:12px; font-weight:bold; padding:10px 35px }
+
+.outro { padding-bottom: 70px;}
+.imac img { width:80%; margin-top:-35px; }
+
+footer { padding:40px 0 70px; }
+footer > div { border-top: #383c41 1px solid; }
+footer h3 { color:#fff; font-size:18px; margin-bottom:20px }
+footer ul { padding-left:0; }
+footer li { margin-bottom:10px }
+footer a, footer p { color:#8b98a3; font-size:14px;  }
+footer li a:hover { color:#8b98a3; text-decoration:underline; }
+.sns {}
+.sns a { display:inline-block; width:32px; height:32px; background:#383c41; text-align:center; line-height:32px; margin-right: 5px; border-radius:50%; transition:0.3s; }
+.sns a i { color:#fff; }
+.sns a:hover { background:#7e8a97; }
+
+
+/* 1440px 이상*/
+@media ( min-width:1440px){
+    header { padding:220px 0 100px; background-position:center 15%; }
+    header h2 { font-size:50px; }
+    header h4 { font-size:18px; }
+}
+
+/* 991px 미만*/
+@media ( max-width:991px){
+    header { padding:120px 0 50px; }
+    header h2 { font-size:34px; }
+    header h4 { font-size:14px; }
+    header button { transform:scale(0.7); }
+    header img { width:40px; }
+    header .hText { font-size:14px; }
+
+    section { padding:40px 0; }
+    section h2 { font-size:24px; }
+}
+
+/* 992px이상 (lg)*/
+@media ( min-width:992px){
+    .marginL { width:570px; float:right; padding-right:20px; } 
+}
+
+/* 1200px이상 (xl)*/
+@media ( min-width:1200px){
+    
+}
+
+/* 1400px이상 (xxl)*/
+@media ( min-width:1400px){
+    .marginL { width:660px; float:right; } 
+}
